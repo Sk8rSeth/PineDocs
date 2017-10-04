@@ -19,7 +19,7 @@
 
 					<div id="menu" class="navbar-default">
 						<div id="menu_top">
-							<a href="."><img id="logo" src="<?= PineDocs::$config->logo ?>" /></a>
+							<a href="." target="_blank"><img id="logo" src="<?= PineDocs::$config->logo ?>" /></a>
 							<!-- <input type="text" id="search" name="search" value="<?= $search_value ?>" placeholder="<?= $search_placeholder ?>" autofocus> -->
 						</div>
 						<?= $menu ?>
@@ -33,7 +33,7 @@
 
 				<div id="content_wrapper">
 					<div id="content_top">
-						<a id="mobile_nav_icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
+						<a target="_blank" id="mobile_nav_icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
 						<span id="content_path"></span>
 					</div>
 					<div id="loading"></div>
